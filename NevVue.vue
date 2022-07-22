@@ -3,10 +3,6 @@
 <div v-for="(item, index) of Objects" :key="index" style="width: 400px; display: flex; justify-content: space-between">
   <span style="justify-content: space-between; display: flex">{{`${item.firstName} ${item.lastName}`}}</span>     <button @click="openNevVue(item)">Info</button>
   <br><br>
-<!--  <div v-text="person.firstName"></div>-->
-<!--  <div v-text="person.lastName"></div>-->
-<!--  <div v-text="person.age"></div>-->
-<!--  <button @click="buttonClick">Click</button>-->
 </div>
 </template>
 
